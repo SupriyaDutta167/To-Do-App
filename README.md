@@ -29,29 +29,29 @@ A modern and interactive To-Do List web application built with **HTML**, **CSS**
 ## 📁 Folder Structure
 
 todo-app/
-├── index.php # Login page
-├── register.php # Registration page
-├── dashboard.php # Main to-do interface
-├── logout.php # Logout script
+├── index.php (login page)
+├── register.php
+├── dashboard.php (main todo interface)
+├── logout.php
 ├── config/
-│ └── database.php # DB connection
+│   └── database.php
 ├── includes/
-│ ├── auth.php # Authentication check
-│ └── session.php # Session handling
+│   ├── auth.php
+│   └── session.php
 ├── ajax/
-│ ├── login.php
-│ ├── register.php
-│ ├── add_todo.php
-│ ├── update_todo.php
-│ ├── delete_todo.php
-│ └── get_todos.php
+│   ├── login.php
+│   ├── register.php
+│   ├── add_todo.php
+│   ├── update_todo.php
+│   ├── delete_todo.php
+│   └── get_todos.php
 ├── assets/
-│ ├── css/
-│ │ └── style.css # Custom styles
-│ └── js/
-│ └── script.js # Custom scripts
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
 └── sql/
-└── database.sql # MySQL schema
+    └── database.sql
 
 
 ---
