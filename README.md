@@ -54,7 +54,14 @@ A modern and interactive To-Do List web application built with **HTML**, **CSS**
 
 ## 📄 License
 
-This project is open-sourced under the **MIT License** – feel free to use and modify it.
+All Rights Reserved.
+
+Copyright (c) Supriya Dutta [2025].
+
+This software is the intellectual property of Supriya Dutta.
+
+Unauthorized copying, use, distribution, or modification of this code, in whole or in part, is strictly prohibited without explicit written permission from the author.
+
 
 ---
 
