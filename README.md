@@ -60,4 +60,7 @@ Found a bug? Want to suggest a feature or contribute?
 Feel free to open an issue or submit a pull request!
 
 ---
-
+© 2025 Supriya Dutta. All rights reserved.
+This project is developed and maintained by Supriya Dutta.
+Unauthorized copying, reproduction, or redistribution is prohibited.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
