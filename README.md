@@ -1,4 +1,4 @@
-# 📝 To-Do App
+![Screenshot 2025-06-24 143636](https://github.com/user-attachments/assets/b137fbcb-88ce-4d2d-8d30-a661bc6de1a4)# 📝 To-Do App
 
 A modern and interactive To-Do List web application built with **HTML**, **CSS**, **PHP**, **JavaScript (jQuery)**, and **MySQL**. It offers a responsive, dynamic, and secure experience for managing daily tasks with ease.
 
@@ -26,36 +26,6 @@ A modern and interactive To-Do List web application built with **HTML**, **CSS**
 
 ---
 
-## 📁 Folder Structure
-
-todo-app/
-├── index.php (login page)
-├── register.php
-├── dashboard.php (main todo interface)
-├── logout.php
-├── config/
-│   └── database.php
-├── includes/
-│   ├── auth.php
-│   └── session.php
-├── ajax/
-│   ├── login.php
-│   ├── register.php
-│   ├── add_todo.php
-│   ├── update_todo.php
-│   ├── delete_todo.php
-│   └── get_todos.php
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── script.js
-└── sql/
-    └── database.sql
-
-
----
-
 ## ⚙️ Setup Instructions
 
 1. Clone or download the repository.
@@ -68,7 +38,13 @@ todo-app/
 
 ## 📷 Screenshots (Optional)
 
-*Add animated screenshots/gifs here if you like.*
+## 🖼️ Screenshot - Login Page and Dashboard
+
+![1](https://github.com/user-attachments/assets/8b863db9-8ac1-446f-a511-8ed8ea2e8e3f)
+![2](https://github.com/user-attachments/assets/bf80f1f4-64f2-4b4a-af60-78ae372b2813)
+![3](https://github.com/user-attachments/assets/603c909f-9f6c-4702-9143-25721ccb777a)
+![4](https://github.com/user-attachments/assets/d6fe4237-f215-4cbf-a2ae-e89ad9f5eb58)
+
 
 ---
 
