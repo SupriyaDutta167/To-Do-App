@@ -46,7 +46,7 @@ A modern and interactive To-Do List web application built with **HTML**, **CSS**
 ![4](https://github.com/user-attachments/assets/76ea7eda-6b19-4381-a8bb-29d8b92cd3e7)
 ![5](https://github.com/user-attachments/assets/b6a19f60-e4b1-4e75-8e01-60dd84c6fb06)
 ![6](https://github.com/user-attachments/assets/18c97e55-eab6-4a22-919a-c24143766bd9)
-![Visitor Count](https://komarev.com/ghpvc/?username=SupriyaDutta167&color=blue)
+![Visitor Count](https://komarev.com/ghpvc/?username=To-Do-App&color=blue)
 
 
 
