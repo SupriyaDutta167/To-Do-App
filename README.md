@@ -1,4 +1,4 @@
-![Screenshot 2025-06-24 143636](https://github.com/user-attachments/assets/b137fbcb-88ce-4d2d-8d30-a661bc6de1a4)# 📝 To-Do App
+📝 To-Do App
 
 A modern and interactive To-Do List web application built with **HTML**, **CSS**, **PHP**, **JavaScript (jQuery)**, and **MySQL**. It offers a responsive, dynamic, and secure experience for managing daily tasks with ease.
 
