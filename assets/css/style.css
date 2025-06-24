@@ -1,0 +1,518 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Auth Forms */
+.auth-form {
+    padding: 40px;
+    text-align: center;
+}
+
+.auth-form h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.auth-form button:hover {
+    transform: translateY(-2px);
+}
+
+.auth-form p {
+    margin-top: 20px;
+    color: #666;
+}
+
+.auth-form a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Dashboard */
+header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.logout-btn {
+    background: rgba(255,255,255,0.2);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.logout-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-1px);
+}
+
+/* Add Form */
+.add-form {
+    padding: 30px 40px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1px solid #e1e5e9;
+}
+
+.add-form input {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.add-form input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.add-form button {
+    padding: 15px 25px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+    white-space: nowrap;
+}
+
+.add-form button:hover {
+    transform: translateY(-1px);
+}
+
+/* Search Section */
+.search-section {
+    padding: 20px 40px;
+    border-bottom: 1px solid #e1e5e9;
+    background-color: #f8f9fa;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.search-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    background: white;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.clear-search-btn {
+    padding: 12px 18px;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.clear-search-btn:hover {
+    background: #5a6268;
+    transform: translateY(-1px);
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: 2px solid #e1e5e9;
+    border-radius: 6px;
+    background: white;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter-btn:hover {
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.filter-btn.active {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-color: transparent;
+}
+
+/* Todo Stats */
+.todo-stats {
+    padding: 15px 40px;
+    background-color: #f1f3f4;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#searchResult {
+    font-weight: 600;
+    color: #667eea;
+}
+
+/* Todo List */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+.todo-item:hover {
+    background-color: #f8f9fa;
+}
+
+.todo-item.done {
+    background-color: #f8f9ff;
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.todo-item.done .todo-text {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Search highlighting */
+mark {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-btn, .delete-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.toggle-btn {
+    background: #28a745;
+    color: white;
+}
+
+.toggle-btn:hover {
+    background: #218838;
+    transform: translateY(-1px);
+}
+
+.todo-item.done .toggle-btn {
+    background: #6c757d;
+}
+
+.todo-item.done .toggle-btn:hover {
+    background: #5a6268;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+    transform: translateY(-1px);
+}
+
+/* No results state */
+.no-results {
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+.no-results p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Empty state */
+.todo-list:empty::after {
+    content: "No tasks yet. Add one above!";
+    display: block;
+    padding: 40px;
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+/* When search/filter is active and there are todos but none visible */
+.todo-list:empty + .no-results {
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        border-radius: 8px;
+    }
+    
+    header {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    .add-form {
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .search-section {
+        padding: 15px 20px;
+    }
+    
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-buttons {
+        justify-content: center;
+    }
+    
+    .todo-stats {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    
+    .todo-item {
+        padding: 15px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .todo-actions {
+        align-self: stretch;
+        justify-content: flex-end;
+    }
+    
+    .auth-form {
+        padding: 30px 20px;
+    }
+}
+
+body.dark-mode {
+    background: #1e1e1e;
+    color: #f1f1f1;
+}
+
+body.dark-mode .container,
+body.dark-mode .search-input,
+body.dark-mode .add-form input,
+body.dark-mode .add-form button,
+body.dark-mode .auth-form input,
+body.dark-mode .auth-form button,
+body.dark-mode .search-section,
+body.dark-mode .todo-item,
+body.dark-mode .todo-list,
+body.dark-mode .todo-text {
+    background-color: #2e2e2e !important;
+    color: #f1f1f1 !important;
+    border-color: #444 !important;
+}
+
+body.dark-mode .filter-btn {
+    background: #3a3a3a;
+    color: #ddd;
+}
+
+body.dark-mode .filter-btn.active {
+    background: linear-gradient(135deg, #444, #222);
+}
+
+body.dark-mode .logout-btn {
+    border-color: #666;
+    background: rgba(255,255,255,0.1);
+}
+
+/* Toggle Switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px; width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.progress-container {
+  padding: 0 40px 20px;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #666;
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 14px;
+  background-color: #e1e5e9;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#progress-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode .progress-labels {
+  color: #ccc;
+}
+body.dark-mode .progress-bar-bg {
+  background-color: #444;
+}
