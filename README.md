@@ -42,8 +42,10 @@ A modern and interactive To-Do List web application built with **HTML**, **CSS**
 
 ![1](https://github.com/user-attachments/assets/8b863db9-8ac1-446f-a511-8ed8ea2e8e3f)
 ![2](https://github.com/user-attachments/assets/bf80f1f4-64f2-4b4a-af60-78ae372b2813)
-![3](https://github.com/user-attachments/assets/603c909f-9f6c-4702-9143-25721ccb777a)
-![4](https://github.com/user-attachments/assets/d6fe4237-f215-4cbf-a2ae-e89ad9f5eb58)
+![3](https://github.com/user-attachments/assets/d6fe4237-f215-4cbf-a2ae-e89ad9f5eb58)
+![4](https://github.com/user-attachments/assets/76ea7eda-6b19-4381-a8bb-29d8b92cd3e7)
+![5](https://github.com/user-attachments/assets/b6a19f60-e4b1-4e75-8e01-60dd84c6fb06)
+![6](https://github.com/user-attachments/assets/18c97e55-eab6-4a22-919a-c24143766bd9)
 
 
 ---
