@@ -1,5 +1,6 @@
 <?php
 // config/database.php
+
 $host = 'localhost';
 $db   = 'todo_app';
 $user = 'root';
